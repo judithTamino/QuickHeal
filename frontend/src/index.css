@@ -10,8 +10,13 @@
 
 @theme {
   --color-primary: #5F6FFF;
+  
 }
 
 .active hr {
   @apply block
+}
+
+::-webkit-scrollbar {
+  @apply hidden
 }
